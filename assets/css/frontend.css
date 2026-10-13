@@ -1,0 +1,126 @@
+aside .product-categories {
+	max-height: 250px;
+	overflow-y: auto;
+	scrollbar-width: thin;
+}
+.commentlist > li {
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+	padding: 10px;
+	margin: 5px 1vw 5px !important;
+	border-radius: 8px;
+}
+.commentlist > li:last-child {
+	margin-bottom: 30px !important;
+}
+.headphonecall {
+	display: flex;
+	padding: 0px 0px !important;
+	height: 40px;
+	gap: 2px;
+	flex-direction: row-reverse;
+}
+.headphonecall .wd-btn-icon {
+	margin: 0 !important;
+	width: 33px !important;
+	aspect-ratio: 1;
+	padding: 6.5px;
+	border-radius: 99px;
+}
+.mui-share-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999999;
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+.mui-share-modal.active {
+	display: flex;
+	animation: fadeIn 0.3s ease;
+}
+.modal-backdrop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0);
+}
+.modal-content {
+	position: relative;
+	background: #2A140ECC;
+	padding: 30px;
+	border-radius: 8px;
+	width: 100%;
+	max-width: 500px;
+	box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+	z-index: 1;
+	backdrop-filter: blur(10px);
+}
+.share-grid {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	margin-bottom: 5px;
+	justify-content: space-around;
+}
+.modal-content .share-option {
+	display: flex !important;
+	flex-direction: column;
+	align-items: center !important;
+	background: #fff0 !important;
+	border: none !important;
+	padding: 0 !important;
+}
+.modal-content .share-icon-circle {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.url-copy-container {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.url-input {
+	flex: 1;
+	padding: 8px 12px !important;
+	border: none !important;
+	outline: none !important;
+	font-size: 12px !important;
+	color: #fff !important;
+}
+.copy-button {
+	background: #f5f5f5;
+	border: none;
+	padding: 8px 12px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.copy-button:hover {
+	background: #e0e0e0;
+}
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+body.modal-open {
+	overflow: hidden;
+}
+.aram-button {
+	padding: 0;
+	min-height: unset;
+	background: #0000 !important;
+	gap: 7px;
+}

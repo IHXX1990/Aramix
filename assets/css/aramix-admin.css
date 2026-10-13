@@ -1,0 +1,115 @@
+.aramix-admin-wrap .aramix-settings-box {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.aramix-repeater {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 16px 0 20px;
+}
+
+.aramix-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+.aramix-row .aramix-product-wrap {
+    flex: 1;
+    position: relative;
+}
+
+.aramix-row .aramix-remove-row {
+    border: 0;
+    background: #fef2f2;
+    color: #b91c1c;
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.aramix-product-label {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 10px 12px;
+    text-align: right;
+    font-size: 14px;
+    cursor: pointer;
+    color: #111827;
+}
+
+.aramix-product-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    left: 0;
+    background: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+    display: none;
+    z-index: 999;
+    max-height: 280px;
+    overflow: hidden;
+}
+
+.aramix-product-menu.open {
+    display: block;
+}
+
+.aramix-product-search {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 10px 12px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.aramix-product-list {
+    max-height: 220px;
+    overflow-y: auto;
+}
+
+.aramix-product-option {
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 10px 12px;
+    border: 0;
+    border-bottom: 1px solid #f3f4f6;
+    background: #fff;
+    cursor: pointer;
+    color: #111827;
+}
+
+.aramix-product-option:hover,
+.aramix-product-option.selected {
+    background: #fef3c7;
+}
+
+.aramix-no-result {
+    padding: 12px;
+    color: #6b7280;
+    font-size: 13px;
+}
+
+@media (max-width: 782px) {
+    .aramix-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

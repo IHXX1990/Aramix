@@ -1,0 +1,19 @@
+#tab-amcf_storage, #tab-amcf_brewing {
+	text-align: justify;
+}
+.amcf-specs-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.amcf-specs-table th {
+    text-align: left;
+    padding: 8px;
+    background: #f7f7f7;
+    width: 30%;
+}
+.amcf-specs-table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.amcf-specs-tab { margin-top: 10px; }

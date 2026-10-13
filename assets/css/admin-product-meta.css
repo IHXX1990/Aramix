@@ -1,0 +1,3 @@
+/* Admin styles for product meta boxes */
+.post-type-product .wp-editor-wrap { max-width: 100%; }
+.post-type-product #amcf_brewing_method .wp-editor-wrap, .post-type-product #amcf_storage .wp-editor-wrap { margin-top: 6px; }
